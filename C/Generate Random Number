@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<conio.h>
+#include<stdlib.h>
+#include<time.h>
+int main ()
+{ 
+    int number;
+    srand(time(0)); //github.com/shivamagg97
+    number = rand()%100+1;
+    printf("The Number is %d",number);
+    getch();
+}
